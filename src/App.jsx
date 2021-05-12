@@ -4,6 +4,7 @@ import AddIcon from '@material-ui/icons/Add';
 import Button from '@material-ui/core/Button';
 import ClearAllIcon from '@material-ui/icons/ClearAll';
 import Tooltip from '@material-ui/core/Tooltip';
+import {NavLink} from 'react-router-dom'
 
 
 
@@ -34,6 +35,7 @@ const App = () => {
     return (
 
         <div className="cDiv">
+            <NavLink className='navli' exact to = '/app2'>Click To Implement Using Redux</NavLink>
             <h1>
                 To Do List
                 </h1>

@@ -80,3 +80,11 @@ input {
   outline: none;
   margin-left: 12px;
 }
+
+.navli{
+  text-decoration: none;
+  padding: 5px 5px;
+  margin: 5px 5px;
+  display: block;
+  color: black;
+}
